@@ -107,4 +107,9 @@ from sales.funnel
 where visit_page_date ::text like '2021-01%'
 
 
+select
+	*
+from sales.customers
+
+
 
